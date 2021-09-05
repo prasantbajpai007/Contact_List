@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    text-align: center;
+}
+div{
+    margin: 0px;
+}
+
+#page-header
+{
+    
+    color:red;
+    margin-top: 25px;
+}
+input {
+    font-size: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    outline:none;
+  }
+  ul{
+      margin:0px;
+      padding: 0px;
+
+  }
+ 
+  #container{
+       
+      margin-left: 0px;
+           padding: 3px 10px;
+           border-style:groove;
+           background-color: lawngreen;
+           box-shadow: 1px 1px 1px 1px lightgray;
+           color: white;
+           display: flex;
+      }
+     #para
+     {
+        margin-left: 2px;
+        padding: 0px;
+     }
+      
+     #container #details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        justify-content:space-evenly;
+        width: 90%;
+          }
+    #container #delete-button{
+        width: 10%;
+        padding: 3px;
+    } 
+          li:hover{
+              background-color: lightcoral;
+          }
